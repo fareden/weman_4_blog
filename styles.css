@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(217, 235, 235);
+    align-content: center;
+}
+    .header_nv {
+        position: relative;
+        padding: 2%;
+        border: solid 10px rgb(152, 177, 189);
+        background-color:rgb(217, 235, 235);
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        height:150px;
+        margin: 5%;
+        width: 80%;
+       align-items: center;
+       display: grid;
+       grid-template-columns: 25% 55% 10% 10%;
+    }
+        .incons{
+            display: inline;
+            position: relative;
+            margin: 5px;
+            float: left;
+            padding: 5%;
+        
+        }
+        #nombreWeman {
+            font-family: Arial, Helvetica, sans-serif;
+            color: 323D37;
+            font-size: 70%;
+        }
+        
+        #user_logo{
+            align-self: auto;
+        }
+        
+        
+
+
+    .content {
+        position: relative;
+        padding: 2%;
+        border: solid 5px rgb(50, 74, 95);
+        background-color:rgb(154, 180, 180);
+        margin: 5%;
+        width: 80%;
+        height: 140px;
+       align-items: center;
+       display: grid;
+       font-size: 40px;
+       grid-template-columns: 70% 30%;
+       font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .img_notice_container {
+        background-color: rgb(18, 72, 104);
+        height: 80%;
+        align-content: space-around;
+        padding: 2%;
+        position: relative;
+    }
+
+    .title_notice{
+        font-size: 60%;
+        display: inline;
+        text-align-last: right;
+
+    }
+
+    .date {
+        font-size: 30%;
+        display: inline;
+    }
+
+    .noticia_resumen {
+        font-size: 30%;
+    }
+
+    .autor {
+        font-size: 30%;
+        display: inline;
+    }

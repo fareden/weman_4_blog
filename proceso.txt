@@ -1,0 +1,8 @@
+PROCESO
+1. Hacer fork al repositorio
+2. Clonar el repositorio del fork 
+3. Ordenar carpetas de acuerdo a la estructura express
+4. Definir estructura de landing-page
+5. Generar html y css de la estructura
+6. Identificar las "acciones" de la página
+7. Genera js para hacer la página dinámica 
