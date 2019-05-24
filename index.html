@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>WeMan Connect Blog</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="app.js"></script>
 </head>
-<body>
+<body> 
     <div class="header_nv">
         <!-- Header / NavBar-->      
         <div class= "incons">
@@ -17,12 +18,29 @@
             <h1 id="nombreWeman">WeMan Connect Blog</h1>
         </div>
         <div class= "incons">
-            <img src="assets/user-png-image-59194.png" id="user_logo" alt="User" width="70%" >
+            <button class="button1"><img src="assets/share.png" id="share_logo" alt="share" width="70%" ></button>     
+
         </div>
         <div class= "incons">
-            <img src="assets/user-png-image-59194.png" alt="User" width="70%" >
+            <button class="button2" id="myBtn"><img src="assets/user-png-image-59194.png" id= "user_logo" alt="User" width="70%" ></button> 
+        </div>
+            <!-- Aquí va el modal de login-->
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+            <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Aquí debe ir el formulario de registro</p>
+                <p>El botón iniciar sesión debe activar el botón share cuando se haga bien el login</p>
+              </div>
+          
+            </div>
         </div>
     </div>
+
+
+
+ 
     <!-- Content -->
     <div class="content">
         <div class="notice">
@@ -39,6 +57,9 @@
 
     </div>
 
-    
+
+
+
+      <script src="app.js"></script>
 </body>
 </html>
